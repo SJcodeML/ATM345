@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 
 let myName: string = "Sidra";
@@ -37,7 +39,7 @@ if (pin.pin1 === myPin)
     ]);
 
     if (withdrawAns.amount <= myBalance) {
-      console.log((myBalance -= withdrawAns.amount));
+      console.log(myBalance -= withdrawAns.amount);
     } else {
       console.log(
         "\n\nYour balance is insufficient! Enter valid amount (check your balance)\n\n"

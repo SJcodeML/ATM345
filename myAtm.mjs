@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let myName = "Sidra";
 let myBalance = 1000000;
